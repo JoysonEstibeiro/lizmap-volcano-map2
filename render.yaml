@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: lizmap-volcano-map
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    buildCommand: ""
+    startCommand: ""
+    envVars: []
+
