@@ -11,3 +11,6 @@ COPY ./projects /srv/projects
 #COPY ./wps-data /srv/data
 #COPY ./etc /srv/etc
 
+CMD ["/srv/lizmap/docker-entrypoint.sh"]
+
+
